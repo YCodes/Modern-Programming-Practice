@@ -1,0 +1,5 @@
+The equals method is returning false for p1.equals(p2) because the object p2 is not the instance of the class PersonWithJob
+ so the overridden equals method in same class returns false when its check for the class of both objects.
+
+While p2.equals(p1) returns true because the p1 is the referred as the instance of person during compile time although 
+it refers to PersonWithJob class and object p1 is inherited.
